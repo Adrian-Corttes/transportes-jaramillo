@@ -10,14 +10,14 @@ const Header = ({ navLinks }) => {
                 
                 {/* Logo */}
                 <div className="flex flex-col">
-                <a href="#" className="text-3xl font-bold tracking-wider">Ravel</a>
-                <span className="text-xs text-gray-300">donde quieras llegar</span>
+                <a href="#" className="text-3xl font-bold tracking-wider">Transportes | Jaramillo</a>
+                <span className="text-xs text-gray-300">Hasta donde quieras llegar, vamos contigo</span>
                 </div>
 
                 {/* Navegación para escritorio */}
                 <nav className="hidden md:flex items-center space-x-8">
                 {navLinks.map((link) => (
-                    <a key={link.label} href={link.href} className="hover:text-teal-400 transition-colors">
+                    <a key={link.label} href={link.href} className="hover:text-accent transition-colors">
                     {link.label}
                     </a>
                 ))}
@@ -25,10 +25,10 @@ const Header = ({ navLinks }) => {
 
                 {/* Botones para escritorio */}
                 <div className="hidden md:flex items-center space-x-4">
-                <a href="#" className="border border-white rounded-full px-5 py-2 text-sm hover:bg-white hover:text-gray-900 transition-colors">
+                <a href="#" className="border border-accent rounded-full px-5 py-2 text-sm hover:bg-accent hover:text-primary transition-colors">
                     Pagos transporte escolar
                 </a>
-                <a href="#" className="bg-teal-500 rounded-full px-5 py-2 text-sm hover:bg-teal-600 transition-colors">
+                <a href="#" className="bg-accent text-primary rounded-full px-5 py-2 text-sm hover:bg-yellow-500 transition-colors">
                     Cotiza tu viaje
                 </a>
                 </div>
@@ -43,17 +43,17 @@ const Header = ({ navLinks }) => {
             
             {/* Menú para móvil */}
             {isMenuOpen && (
-                <div className="md:hidden bg-gray-900 bg-opacity-95">
+                <div className="md:hidden bg-primary bg-opacity-95">
                 <div className="container mx-auto px-6 py-4 flex flex-col items-center space-y-4">
                     {navLinks.map((link) => (
-                    <a key={link.label} href={link.href} className="hover:text-teal-400 transition-colors" onClick={() => setIsMenuOpen(false)}>
+                    <a key={link.label} href={link.href} className="hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
                         {link.label}
                     </a>
                     ))}
-                    <a href="#" className="border border-white rounded-full w-full text-center px-5 py-2 text-sm hover:bg-white hover:text-gray-900 transition-colors">
+                    <a href="#" className="border border-accent rounded-full w-full text-center px-5 py-2 text-sm hover:bg-accent hover:text-primary transition-colors">
                     Pagos transporte escolar
                     </a>
-                    <a href="#" className="bg-teal-500 rounded-full w-full text-center px-5 py-2 text-sm hover:bg-teal-600 transition-colors">
+                    <a href="#" className="bg-accent text-primary rounded-full w-full text-center px-5 py-2 text-sm hover:bg-yellow-500 transition-colors">
                     Cotiza tu viaje
                     </a>
                 </div>

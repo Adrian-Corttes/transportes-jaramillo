@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .hover-bg-primary-important:hover {
+    background-color: #0D2847 !important;
+  }
+}

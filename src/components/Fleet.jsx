@@ -38,10 +38,10 @@ const Fleet = () => {
     };
 
     return (
-        <section id="flota" className="bg-gray-50 py-16 md:py-24">
+        <section id="flota" className="bg-background-light py-16 md:py-24">
             <div className="container mx-auto px-6 text-center">
-                <p className="text-teal-500 font-semibold tracking-widest mb-2 text-sm uppercase">Siempre a la vanguardia</p>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Nuestra flota Ravel</h2>
+                <p className="text-accent font-semibold tracking-widest mb-2 text-sm uppercase">Siempre a la vanguardia</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-text-dark mb-12">Nuestra flota</h2>
                 
                 <div className="relative max-w-4xl mx-auto">
                     <div className="overflow-hidden relative rounded-lg">
@@ -55,9 +55,9 @@ const Fleet = () => {
                                             <img src={banner.imgSrc} alt={banner.title} className="rounded-md w-full h-auto object-contain max-h-80" />
                                         </div>
                                         <div className="md:w-1/2 text-center md:text-left">
-                                            <h3 className="text-2xl font-bold text-gray-800 mb-4">{banner.title}</h3>
-                                            <p className="text-gray-600 mb-6">{banner.description}</p>
-                                            <a href="#" className="bg-teal-500 text-white rounded-full px-8 py-3 font-semibold hover:bg-teal-600 transition-colors inline-block">
+                                            <h3 className="text-2xl font-bold text-text-dark mb-4">{banner.title}</h3>
+                                            <p className="text-text-dark mb-6">{banner.description}</p>
+                                            <a href="#" className="bg-accent text-primary rounded-full px-8 py-3 font-semibold hover:bg-yellow-500 transition-colors inline-block">
                                                 Reserva ahora
                                             </a>
                                         </div>
@@ -68,10 +68,10 @@ const Fleet = () => {
                     </div>
                     
                     <button onClick={prevSlide} className="absolute top-1/2 left-0 md:-left-12 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition-colors z-10">
-                        <ChevronLeftIcon className="h-6 w-6 text-gray-800" />
+                        <ChevronLeftIcon className="h-6 w-6 text-primary" />
                     </button>
                     <button onClick={nextSlide} className="absolute top-1/2 right-0 md:-right-12 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition-colors z-10">
-                        <ChevronRightIcon className="h-6 w-6 text-gray-800" />
+                        <ChevronRightIcon className="h-6 w-6 text-primary" />
                     </button>
 
                     <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
@@ -79,7 +79,7 @@ const Fleet = () => {
                             <button 
                                 key={index} 
                                 onClick={() => goToSlide(index)}
-                                className={`w-3 h-3 rounded-full transition-colors ${currentSlide === index ? 'bg-teal-500' : 'bg-gray-300 hover:bg-gray-400'}`}
+                                className={`w-3 h-3 rounded-full transition-colors ${currentSlide === index ? 'bg-accent' : 'bg-gray-300 hover:bg-gray-400'}`}
                                 aria-label={`Ir a la diapositiva ${index + 1}`}
                             />
                         ))}

@@ -3,14 +3,14 @@ import { SocialIcon } from './icons';
 
 const Footer = ({ navLinks, services }) => {
     return (
-        <footer className="bg-gray-800 text-white mt-16">
+        <footer className="bg-primary text-white mt-16">
             <div className="container mx-auto px-6 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Logo e Info */}
                     <div className="col-span-1 lg:col-span-1">
                         <div className="flex flex-col mb-4">
-                            <a href="#" className="text-3xl font-bold tracking-wider">Ravel</a>
-                            <span className="text-xs text-gray-400">donde quieras llegar</span>
+                            <a href="#" className="text-3xl font-bold tracking-wider">Transportes | Jaramillo</a>
+                            <span className="text-xs text-gray-400">Hasta donde quieras llegar, vamos contigo</span>
                         </div>
                         <p className="text-gray-400 text-sm">
                             Comprometidos con tu seguridad y comodidad en cada viaje.
@@ -52,7 +52,7 @@ const Footer = ({ navLinks, services }) => {
                     </div>
                 </div>
                 <div className="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-                    <p>&copy; {new Date().getFullYear()} Transportes Ravel. Todos los derechos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Transportes Jaramillo. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>
