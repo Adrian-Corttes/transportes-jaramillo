@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -6,6 +7,7 @@ import Services from './components/Services';
 import Fleet from './components/Fleet';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 // --- DATOS DE LA APLICACIÓN --- //
 
@@ -41,6 +43,7 @@ function App() {
       <Fleet />
       <Clients />
       <Footer navLinks={navLinks} services={services} />
+      <WhatsAppButton />
     </div>
   );
 }
