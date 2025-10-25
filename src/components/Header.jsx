@@ -10,8 +10,8 @@ const Header = ({ navLinks }) => {
                 
                 {/* Logo */}
                 <div className="flex flex-col">
-                <a href="#" className="text-3xl font-bold tracking-wider">Transportes | Jaramillo</a>
-                <span className="text-xs text-gray-300">Hasta donde quieras llegar, vamos contigo</span>
+                <a href="#" className="text-3xl font-bold tracking-wider">Camino Express N&N</a>
+                <span className="text-xs text-gray-300">Màs que transporte somos conexiòn</span>
                 </div>
 
                 {/* Navegación para escritorio */}

@@ -4,7 +4,8 @@ import { WhatsAppIcon } from './icons';
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/57300813822"
+      href="https://wa.me/573008138222"
+      title="Contactar por WhatsApp"
       className="whatsapp-fab"
       target="_blank"
       rel="noopener noreferrer"

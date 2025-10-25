@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutUsImage from '../assets/images/ravel-quienes-somos-image.webp';
+import aboutUsImage from '../assets/images/ravel-quienes-somos-image.png';
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
                 
                 <div className="md:w-1/2 text-center md:text-left">
                 <p className="text-accent font-semibold tracking-widest mb-2 text-sm">NOSOTROS</p>
-                <h2 className="text-3xl md:text-4xl font-bold text-text-dark mb-4">Transporte | Jaramillo</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-text-dark mb-4">Camino Express N&N</h2>
                 <p className="text-gray-700 mb-4">
                     Más que un servicio de transporte, somos tu aliado en cada trayecto.
                 </p>

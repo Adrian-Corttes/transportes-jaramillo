@@ -9,8 +9,8 @@ const Footer = ({ navLinks, services }) => {
                     {/* Logo e Info */}
                     <div className="col-span-1 lg:col-span-1">
                         <div className="flex flex-col mb-4">
-                            <a href="#" className="text-3xl font-bold tracking-wider">Transportes | Jaramillo</a>
-                            <span className="text-xs text-gray-400">Hasta donde quieras llegar, vamos contigo</span>
+                            <a href="#" className="text-3xl font-bold tracking-wider">Camino Express N&N</a>
+                            <span className="text-xs text-gray-400">Màs que transporte somos conexiòn</span>
                         </div>
                         <p className="text-gray-400 text-sm">
                             Comprometidos con tu seguridad y comodidad en cada viaje.
@@ -52,7 +52,7 @@ const Footer = ({ navLinks, services }) => {
                     </div>
                 </div>
                 <div className="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-                    <p>&copy; {new Date().getFullYear()} Transportes Jaramillo. Todos los derechos reservados.</p>
+                    <p>&copy; {new Date().getFullYear()} Camino Express N&N. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>

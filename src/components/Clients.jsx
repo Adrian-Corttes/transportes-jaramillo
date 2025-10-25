@@ -19,7 +19,7 @@ const Clients = () => {
           Recomendados por los mejores
         </p>
         <h2 className="text-3xl md:text-4xl font-bold text-text-dark mb-12">
-          Estas empresas confían en Ravel
+          Estas empresas confían en nosotros
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
           {clientLogos.map((logo, index) => (
