@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import BannerVideo from './components/BannerVideo';
 import Services from './components/Services';
 import Fleet from './components/Fleet';
 import Clients from './components/Clients';
@@ -39,6 +40,7 @@ function App() {
       <Header navLinks={navLinks} />
       <Hero />
       <About />
+      <BannerVideo />
       <Services />
       <Fleet />
       <Clients />
